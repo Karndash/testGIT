@@ -1,0 +1,176 @@
+[33mcommit 912917fbcc608723cb059f08e1b23cff1cf45f30[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: karndash <yurev.99.99@gmail.com>
+Date:   Mon Oct 29 09:50:40 2018 +0300
+
+    tttt
+
+[1mdiff --git a/adds b/adds[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f6f1556[m
+[1m--- /dev/null[m
+[1m+++ b/adds[m
+[36m@@ -0,0 +1,74 @@[m
+[32m+[m[32m[33mcommit 5e10b0af47138f08d023d9a8ee6fd5744908ae77[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+[32m+[m[32mAuthor: karndash <yurev.99.99@gmail.com>[m
+[32m+[m[32mDate:   Sun Oct 28 19:56:21 2018 +0300[m
+[32m+[m
+[32m+[m[32m    First commit[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/.gitignore b/.gitignore[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..9abe308[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ b/.gitignore[m[m
+[32m+[m[32m[36m@@ -0,0 +1,6 @@[m[m
+[32m+[m[32m[32m+[m[32m.idea/description.html[m[m
+[32m+[m[32m[32m+[m[32m.idea/misc.xml[m[m
+[32m+[m[32m[32m+[m[32m.idea/modules.xml[m[m
+[32m+[m[32m[32m+[m[32m.idea/project-template.xml[m[m
+[32m+[m[32m[32m+[m[32m.idea/workspace.xml[m[m
+[32m+[m[32m[32m+[m[32mHelloWorld.iml[m[m
+[32m+[m[32m\ No newline at end of file[m[m
+[32m+[m[32m[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m[m
+[32m+[m[32m[1mindex 35eb1dd..c8397c9 100644[m[m
+[32m+[m[32m[1m--- a/.idea/vcs.xml[m[m
+[32m+[m[32m[1m+++ b/.idea/vcs.xml[m[m
+[32m+[m[32m[36m@@ -1,6 +1,6 @@[m[m
+[32m+[m[32m[31m-<?xml version="1.0" encoding="UTF-8"?>[m[m
+[32m+[m[32m[31m-<project version="4">[m[m
+[32m+[m[32m[31m-  <component name="VcsDirectoryMappings">[m[m
+[32m+[m[32m[31m-    <mapping directory="" vcs="Git" />[m[m
+[32m+[m[32m[31m-  </component>[m[m
+[32m+[m[32m[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m[41m[m[m
+[32m+[m[32m[32m+[m[32m<project version="4">[m[41m[m[m
+[32m+[m[32m[32m+[m[32m  <component name="VcsDirectoryMappings">[m[41m[m[m
+[32m+[m[32m[32m+[m[32m    <mapping directory="" vcs="Git" />[m[41m[m[m
+[32m+[m[32m[32m+[m[32m  </component>[m[41m[m[m
+[32m+[m[32m </project>[m[m
+[32m+[m[32m\ No newline at end of file[m[m
+[32m+[m[32m[1mdiff --git a/out/production/HelloWorld/com/company/Main.class b/out/production/HelloWorld/com/company/Main.class[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..60496b4[m[m
+[32m+[m[32mBinary files /dev/null and b/out/production/HelloWorld/com/company/Main.class differ[m
+[32m+[m[32m[1mdiff --git a/src/com/company/Main.java b/src/com/company/Main.java[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..6bc2911[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ b/src/com/company/Main.java[m[m
+[32m+[m[32m[36m@@ -0,0 +1,8 @@[m[m
+[32m+[m[32m[32m+[m[32mpackage com.company;[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32mpublic class Main {[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m    public static void main(String[] args) {[m[m
+[32m+[m[32m[32m+[m	[32mSystem.out.print("hello world");[m[m
+[32m+[m[32m[32m+[m[32m    }[m[m
+[32m+[m[32m[32m+[m[32m}[m[m
+[32m+[m
+[32m+[m[32m[33mcommit 75d52e921896cc9fe274aae69d74b8ccabc46fe2[m[m
+[32m+[m[32mAuthor: karndash <yurev.99.99@gmail.com>[m
+[32m+[m[32mDate:   Sun Oct 28 16:46:26 2018 +0300[m
+[32m+[m
+[32m+[m[32m    hello world[m
+[32m+[m
+[32m+[m[32m[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..35eb1dd[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ b/.idea/vcs.xml[m[m
+[32m+[m[32m[36m@@ -0,0 +1,6 @@[m[m
+[32m+[m[32m[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m[m
+[32m+[m[32m[32m+[m[32m<project version="4">[m[m
+[32m+[m[32m[32m+[m[32m  <component name="VcsDirectoryMappings">[m[m
+[32m+[m[32m[32m+[m[32m    <mapping directory="" vcs="Git" />[m[m
+[32m+[m[32m[32m+[m[32m  </component>[m[m
+[32m+[m[32m[32m+[m[32m</project>[m[m
+[32m+[m[32m\ No newline at end of file[m[m
+[1mdiff --git a/out/production/HelloWorld/com/company/Main.class b/out/production/HelloWorld/com/company/Main.class[m
+[1mindex 60496b4..86d82ad 100644[m
+Binary files a/out/production/HelloWorld/com/company/Main.class and b/out/production/HelloWorld/com/company/Main.class differ
+[1mdiff --git a/src/com/company/Main.java b/src/com/company/Main.java[m
+[1mindex 6bc2911..ab18390 100644[m
+[1m--- a/src/com/company/Main.java[m
+[1m+++ b/src/com/company/Main.java[m
+[36m@@ -4,5 +4,7 @@[m [mpublic class Main {[m
+ [m
+     public static void main(String[] args) {[m
+ 	System.out.print("hello world");[m
+[32m+[m	[32mSystem.out.println("Second commit");[m
+[32m+[m[32m        System.out.println("Second commit");[m
+     }[m
+ }[m
+
+[33mcommit 5e10b0af47138f08d023d9a8ee6fd5744908ae77[m
+Author: karndash <yurev.99.99@gmail.com>
+Date:   Sun Oct 28 19:56:21 2018 +0300
+
+    First commit
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9abe308[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m.idea/description.html[m
+[32m+[m[32m.idea/misc.xml[m
+[32m+[m[32m.idea/modules.xml[m
+[32m+[m[32m.idea/project-template.xml[m
+[32m+[m[32m.idea/workspace.xml[m
+[32m+[m[32mHelloWorld.iml[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m
+[1mindex 35eb1dd..c8397c9 100644[m
+[1m--- a/.idea/vcs.xml[m
+[1m+++ b/.idea/vcs.xml[m
+[36m@@ -1,6 +1,6 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="VcsDirectoryMappings">[m
+[31m-    <mapping directory="" vcs="Git" />[m
+[31m-  </component>[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m[41m[m
+[32m+[m[32m<project version="4">[m[41m[m
+[32m+[m[32m  <component name="VcsDirectoryMappings">[m[41m[m
+[32m+[m[32m    <mapping directory="" vcs="Git" />[m[41m[m
+[32m+[m[32m  </component>[m[41m[m
+ </project>[m
+\ No newline at end of file[m
+[1mdiff --git a/out/production/HelloWorld/com/company/Main.class b/out/production/HelloWorld/com/company/Main.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..60496b4[m
+Binary files /dev/null and b/out/production/HelloWorld/com/company/Main.class differ
+[1mdiff --git a/src/com/company/Main.java b/src/com/company/Main.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6bc2911[m
+[1m--- /dev/null[m
+[1m+++ b/src/com/company/Main.java[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32mpackage com.company;[m
+[32m+[m
+[32m+[m[32mpublic class Main {[m
+[32m+[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m	[32mSystem.out.print("hello world");[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+
+[33mcommit 75d52e921896cc9fe274aae69d74b8ccabc46fe2[m
+Author: karndash <yurev.99.99@gmail.com>
+Date:   Sun Oct 28 16:46:26 2018 +0300
+
+    hello world
+
+[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..35eb1dd[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/vcs.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="VcsDirectoryMappings">[m
+[32m+[m[32m    <mapping directory="" vcs="Git" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
